@@ -1,8 +1,3 @@
-function hello(name) {
-   if (name === undefined)
-       name = "World";
-
-   return "Hello, " + name + "!";
-}
-
-module.exports = hello;
+function askQuestion(firstName, lastName) {
+    let message = `Hello, ${firstName} ${lastName}!`;
+    console.log(message);

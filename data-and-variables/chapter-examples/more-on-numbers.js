@@ -1,5 +1,6 @@
-console.log(42000);
-console.log(42,000);
-
-console.log(42, 17, 56, 34, 11, 4.35, 32);
-console.log(3.4, "hello", 45);
+function runProgram() {
+    askForName();
+    // TODO 1.1c: Greet candidate using their name //
+     console.log(`Hello, ${firstName} ${lastName}!`;);
+    askQuestion();
+    gradeQuiz(this.candidateAnswers);
