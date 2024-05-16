@@ -21,6 +21,7 @@ while (fuelLevel <= 5000 || fuelLevel >30000 || isNaN(fuelLevel)) {
 
 while (astro <= 6 && astro < 8 | isNaN(astro)) {
   astro = input.question("How many astronauts: ");
+  break;
 }
 
   
