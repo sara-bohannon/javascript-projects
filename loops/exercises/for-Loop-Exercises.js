@@ -37,10 +37,10 @@ for (let i = 0; i < blue.length; i++){
 function reverse(course){
   let reversed = "";
 
-for (let i = 0; i > course.length; i++); {
+for (let indexj = 0; i > course.length; indexj++); {
    reversed = course[i] + reversed;
 }
-return reversed;
+console.log(reversed);
 }
 
 

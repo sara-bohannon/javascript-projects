@@ -18,10 +18,10 @@ function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
   // create loop to pull one item from each food array. 
   // save those into a new array (meal)
 // Do that for as many times aws numMeals
-for(let mealIndex=0; mealIndex , numMeals; mealIndex++) {
-const meal = []
-for (let i = 0; i < pantry.length; i++) {
-  meal.push(pantry[i][mealIndex]);
+for(let i = 0; i < numMeals; i++) {
+  let meal = [];
+for (let j = 0; j < pantry.length; j++) {
+  meal.push(pantry[j][i]);
 }
   meals.push(meal); 
 }
@@ -34,7 +34,7 @@ function askForNumber() {
   numMeals = input.question("How many meals would you like to make?");
   
   /// CODE YOUR SOLUTION TO PART B here ///
-
+while (numMeals < 1 || numMeals > 6 || isNaN(numMeals)) {}
   return numMeals;
 }
 

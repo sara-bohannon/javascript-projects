@@ -19,10 +19,7 @@ while (fuelLevel <= 5000 || fuelLevel >30000 || isNaN(fuelLevel)) {
 
 //b. Use a second loop to query the user for the number of astronauts (up to a maximum of 7). Validate the entry.nod
 
-while (astro <= 6 && astro < 8 | isNaN(astro)) {
-  astro = input.question("How many astronauts: ");
-  break;
-}
+while (astro == 0  || astro 
 
   
   
