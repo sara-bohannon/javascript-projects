@@ -1,5 +1,6 @@
 function findMinValue(arr){
   let min = arr[0];
+  let new = [];
   for (i = 0; i < arr.length; i++){
     if (arr[i] < min){
       min = arr[i];
