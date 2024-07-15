@@ -53,3 +53,14 @@ let candidateF = {
 let animals = [candidateA,candidateB,candidateC,candidateD,candidateE,candidateF];
 
 // Code your template literal and console.log statements:
+function randomSelection(animals){
+  let index = Math.floor(Math.random()*animals.length);
+  return animals[index];
+}
+
+let happiness = ['Hope','Joy','Peace','Love','Kindness','Puppies','Kittens','Tortoise'];
+
+for (i=0; i < 8; i++){
+  console.log(randomSelection(happiness));
+}
+for 
