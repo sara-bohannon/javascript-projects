@@ -6,5 +6,14 @@ function init () {
     // Put your code for the exercises here.
     
 }
+button.addEventListener('click', event => {
+    paragraph.innerHTML = 'Houston! We have liftoff!';
+ });
+ missionAbort.addEventListener('mouseover', () => {
+    missionAbort.style.backgroundColor = 'red';
+ });
+ missionAbort.addEventListener('mouseout', () => {
+    missionAbort.style.backgroundColor = ''; 
+});
 
 window.addEventListener("load", init);
