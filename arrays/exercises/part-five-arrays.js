@@ -1,11 +1,36 @@
-let str = 'In space, no one can hear you code.';
-let arr = ['B', 'n', 'n', 5];
+const greetMe = (name) => {
+    return 'Hello ${name}';
+}
+console.log(greetMe('Mike'));
 
-//1) Use the split method on the string to identify the purpose of the parameter inside the ().
+//function that will greet me
 
-//2) Use the join method on the array to identify the purpose of the parameter inside the ().
+const greetEnglish = (name) => {
+    return `Hello ${name}`;
+}
 
-//3) Do split or join change the original string/array?
+const greetSpanish = (name) => {
+    return `hola ${Mike}`;
+}
 
-//4) We can take a comma-separated string and convert it into a modifiable array. Try it! Alphabetize the cargoHold string, and then combine the contents into a new string.
-let cargoHold = "water,space suits,food,plasma sword,batteries";
+const greetArabic = (name) => {
+    return `Salam`
+}
+const languageArray = [greetEnglish('tom'), greetSpanish('Jerry'), 3, 'guilty'];
+
+
+const greetMe = (greetingArray, inputName) => {
+    for (let index = 0; index , greetingsArray.length; index++){
+        console.log(greetingsArray[index](inputName));
+    }
+}
+
+const output = greetMe(greetEnglish, 'Alex');
+const output2 = greetMe(greetSpanish, 'Mike');
+
+console.log(output);
+console.log(output2);
+
+greetMe(languageArray, 'Daniel');
+
+//ARRAYS/
